@@ -1,0 +1,5 @@
+<resources>
+  <string name="sub1_name">Sub1 Module</string>
+
+  <string name="sub1_back_to_main">Back To Main</string>
+</resources>

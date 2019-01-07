@@ -1,0 +1,17 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/sub1_nav"
+  app:startDestination="@id/sub1_frag">
+
+  <fragment
+    android:id="@+id/sub1_frag"
+    android:name="com.github.satoshun.example.feature.sub1.Sub1Fragment"
+    android:label="@string/sub1_name"
+    tools:layout="@layout/sub1_frag">
+
+    <argument
+      android:name="user_id"
+      app:argType="integer" />
+  </fragment>
+</navigation>

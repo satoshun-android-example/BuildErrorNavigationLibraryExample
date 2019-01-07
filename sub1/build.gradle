@@ -1,0 +1,25 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'androidx.navigation.safeargs'
+
+android {
+  compileSdkVersion Vers.compile_sdk
+
+  defaultConfig {
+    minSdkVersion Vers.min_sdk
+  }
+}
+
+dependencies {
+  implementation Libs.kotlin
+
+  implementation Libs.appcompat
+  implementation Libs.constraintlayout
+
+  implementation Libs.NAVIGATION
+  implementation Libs.navigation_ui
+  implementation Libs.navigation_fragment
+  implementation Libs.navigation_runtime
+}
